@@ -1,0 +1,181 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyMIx4XqL4v9aE0+H5l1OL1a",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Prasanth26sai/Python-Full-Stack-Development/blob/main/Day_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uQxVkiHa2ANw",
+        "outputId": "71658279-0696-4911-d24a-9299ff6ff4a5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "p\n",
+            "o\n",
+            "e\n",
+            "Happy\n",
+            "[2, 0, 1, 5]\n"
+          ]
+        }
+      ],
+      "source": [
+        "my_list = [ 'p' , 'r' , 'o' , 'b' , 'e' ]\n",
+        "\n",
+        "#first item\n",
+        "print(my_list[0]) #p\n",
+        "\n",
+        "#third item\n",
+        "print(my_list[2]) #o\n",
+        "\n",
+        "#fifth item \n",
+        "print(my_list[4]) #e\n",
+        "\n",
+        "#nested list\n",
+        "n_list = [\"Happy\", [2, 0, 1, 5] ]\n",
+        "\n",
+        "print(n_list[0])\n",
+        "print(n_list[1])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "List = [1, 2 , 3 , 4 , 5 , 6 ]\n",
+        "print(List)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qLcRUOBJ25Bn",
+        "outputId": "3750add2-1214-4cab-f724-82cd3781a172"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4, 5, 6]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "List.insert(7,8)\n",
+        "print(List)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8USglYGk2-jU",
+        "outputId": "c3a2ca8d-4234-45de-bac1-16349fcd567d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4, 5, 6, 8]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "this_list = [\"apple\", \"banana\", \"cherry\"]\n",
+        "print(this_list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KwGj2Ih96z5F",
+        "outputId": "74b82c4f-f106-4df5-ccf8-704b0a37ebcc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['apple', 'banana', 'cherry']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "this_list = [\"apple\", \"banana\", \"cherry\", \"apple\", \"cherry\"]\n",
+        "print(this_list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kik2QTJs7gHv",
+        "outputId": "e68d476c-be2f-45b0-f9ac-b5bd2db45ede"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['apple', 'banana', 'cherry', 'apple', 'cherry']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "pD8Z5Q0v7mzX"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
